@@ -3,7 +3,7 @@ from selenium import webdriver
 
 chrome_driver = "C://Development/chromedriver.exe"
 EMAIL = "ogidiifechukwu6@gmail.com"
-PASSWD = "CoderZ01"
+PASSWD = "LKND_PASS"
 
 driver = webdriver.Chrome(chrome_driver)
 
