@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rating</title>
+</head>
+<body>
+    <div>
+        <p>Book Name: {{data.title}}</p>
+        <p>Current Rating: {{ data.rating }}</p>
+    </div>
+    <form action="{{ url_for('rating', id=data.id) }}" method="post">
+        {{ form.rate }}{{ form.submit }}
+    </form>
+</body>
+</html>
