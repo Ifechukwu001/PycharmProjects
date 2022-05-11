@@ -4,7 +4,7 @@ import requests
 
 BUY_PRICE = 400
 my_email = "techighbot@gmail.com"
-password = "TecHIGHnet00"
+password = "MAIL_PASSWORD"
 url = "https://www.amazon.com/ASUS-i3-1005G1-Processor-Fingerprint-F515JA-AH31/dp/B0869L1326/ref=sr_1_6?" \
       "qid=1638538066&refinements=p_89%3AASUS&rnid=2528832011&s=computers-intl-ship&sr=1-6&th=1"
 
