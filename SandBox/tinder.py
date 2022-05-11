@@ -29,7 +29,7 @@ e_next.click()
 
 time.sleep(10)
 passwd = driver.find_element_by_xpath('//*[@id="password"]/div[1]/div/div[1]/input')
-passwd.send_keys("TecHIGHnet00")
+passwd.send_keys("MAIL_PASSWORD")
 p_next = driver.find_element_by_xpath('//*[@id="passwordNext"]/div/button')
 p_next.click()
 
